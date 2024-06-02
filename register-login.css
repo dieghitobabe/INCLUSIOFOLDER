@@ -1,0 +1,209 @@
+* {
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(197, 197, 197, 0.39);
+}
+
+/* Inizio Head della pagina*/
+.head {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(26,188,156);
+}
+
+/* Fine Head della pagina*/
+
+/* Inizio barra di return*/
+.return-button {
+    display: flex;
+    padding: 20px;
+    width: 100%;
+    height: 75px;
+    background-color: rgb(26,188,156);
+    cursor: pointer;
+    border: none;
+    font-size: 25px;
+    color: white;
+}
+
+.return-button:hover {
+    background-color: rgb(117, 142, 214);
+}
+
+.return-text {
+    text-decoration: none;
+}
+
+/* Fine barra di return*/
+
+/* Inizio titolo centrale*/
+.register-title-container {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    height: 100px;
+}
+
+/* Inizio titolo centrale*/
+
+
+/* Inizio Form */
+
+
+/* Inizio Nome Form */
+.name-text {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+
+.name-container {
+    display: flex;
+    justify-content: center;
+}
+
+.name-input {
+    font-size: 20px;
+    padding: 10px;
+    width: 18%;
+    text-align: center;
+}
+
+.name-transparent{
+    position: absolute;
+    color: black;
+}
+/* Fine Nome Form */
+
+/* Inizio Cognome Form */
+.surname-text {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+
+.surname-container {
+    display: flex;
+    justify-content: center;
+}
+
+.surname-input {
+    font-size: 20px;
+    padding: 10px;
+    width: 18%;
+    text-align: center;
+}
+
+/* Inizio Nickname Form */
+
+.nickname-text {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+
+.nickname-container {
+    display: flex;
+    justify-content: center;
+}
+
+.nickname-input {
+    font-size: 20px;
+    padding: 10px;
+    width: 18%;
+    text-align: center;
+}
+
+/* Inizio Telefono Form */
+.telephone-text {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+
+.telephone-container {
+    display: flex;
+    justify-content: center;
+}
+
+.telephone-input {
+    font-size: 20px;
+    padding: 10px;
+    width: 18%;
+    text-align: center;
+}
+
+/* Fine Telefono Form */
+
+/* Inizio Email Form */
+.email-text {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+
+.email-container {
+    display: flex;
+    justify-content: center;
+}
+
+.email-input {
+    font-size: 20px;
+    padding: 10px;
+    width: 18%;
+    text-align: center;
+}
+
+/* Fine Email Form */
+
+/* Inizio Password Form */
+.password-text {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+
+.password-container {
+    display: flex;
+    justify-content: center;
+}
+
+.password-input {
+    font-size: 20px;
+    padding: 10px;
+    width: 18%;
+    text-align: center;
+}
+
+/* Fine Password Form */
+
+/* Inizio Button Form */
+.button-container{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.button-register{
+    display: flex;
+    justify-content: center;
+    line-height: 47px;
+    height: 50px;
+    width: 17%;
+    font-size: 35px;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
+.button-register:hover{
+    background-color: rgb(26,188,156);
+    transition: 0.4s;
+}
+
+/* Fine Button Form */
+/* Fine Form */

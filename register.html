@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="register-login.css">
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+    <title>Register Page</title>
+</head>
+<header>
+    <div class="head">
+        <ul class="intestazione">
+            <li><a class="return-text" href="Inclusio.html"> <button class="return-button"> Return </button> </a></li>
+        </ul>
+    </div>
+    <div class="register-title-container">
+        <h1> Let's Register to Inclusio community!</h1>
+    </div>
+</header>
+<body>
+    <form name="registrazione" action="register.php" method="POST">
+        <div class="form_registrazione">
+            <!-- Nome Form -->
+            <div class="name-text">
+                <h1> Name: </h1>
+            </div>
+            <div class="name-container">
+                <input type="text" name="nome" class="name-input">
+            </div>
+            <!-- Cognome Form -->
+            <div class="surname-text">
+                <h1> Surname: </h1>
+            </div>
+            <div class="surname-container">
+                <input type="text" name="cognome" class="surname-input">
+            </div>
+            <!-- Nickname Form-->
+            <div class="nickname-text">
+                <h1> Nickname: </h1>
+            </div>
+            <div class="nickname-container">
+                <input type="text" name="nickname" class="nickname-input">
+            </div>
+            <!-- Telefono Form -->
+            <div class="telephone-text">
+                <h1> Telephone: </h1>
+            </div>
+            <div class="telephone-container">
+                <input type="text" name="telefono" class="telephone-input">
+            </div>
+            <!-- Email Form -->
+            <div class="email-text">
+                <h1> Email: </h1>
+            </div>
+            <div class="email-container">
+                <input type="text" name="email" class="email-input">
+            </div>
+            <!-- Password Form -->
+            <div class="password-text">
+                <h1> Password: </h1>
+            </div>
+            <div class="password-container">
+                <input type="password" name="password" class="password-input">
+            </div>
+            <!-- Button Form -->
+            <div class="button-container">
+                <input type="submit" name="go" value="Register!" class="button-register">
+            </div>
+        </div>
+    </form>
+</body>
+</html>
